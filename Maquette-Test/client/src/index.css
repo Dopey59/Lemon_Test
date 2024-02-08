@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Men image */
+
+html{
+    background-color: rgba(248, 248, 248, 0.961);
+}
+
+.menImage{
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: repeat-x;
+        background-image: url("./assets/men.jpg");
+        background-size: contain;
+}
+
+.imageStack {
+    position: relative;
+    width: 180px; /* Assez large pour contenir toutes les images avec chevauchement */
+    height: 30px; /* Hauteur pour contenir une image */
+}
+
+.stackedImage {
+    width: 20px; /* Largeur de chaque image */
+    height: 30px; /* Hauteur de chaque image */
+    border-radius: 50%; /* Pour rendre les images circulaires */
+    background-image: url("./assets/men.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stackedImage:nth-child(1) { left: 0; }
+.stackedImage:nth-child(2) { left: 15px; } /* 5px de chevauchement */
+.stackedImage:nth-child(3) { left: 30px; } /* 5px de chevauchement */
+.stackedImage:nth-child(4) { left: 45px; } /* 5px de chevauchement */
+.stackedImage:nth-child(5) { left: 60px; } /* 5px de chevauchement */
+
+
+
+
+
+
