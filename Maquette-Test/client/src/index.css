@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Men image */
+
 
 html{
     background-color: rgba(248, 248, 248, 0.961);
 }
+
+/*Men image logo - Start*/
 
 .menImage{
         height: 30px;
@@ -40,8 +42,30 @@ html{
 .stackedImage:nth-child(4) { left: 45px; } /* 5px de chevauchement */
 .stackedImage:nth-child(5) { left: 60px; } /* 5px de chevauchement */
 
+/*Men image logo - End*/
 
+/*Section 3 Images - Start*/
 
+.imageStack {
+    position: relative;
+    width: 150px; /* Largeur de la zone de superposition */
+    height: 150px; /* Hauteur de la zone de superposition */
+}
 
+.stackedImage {
+    width: 100px; /* Largeur de chaque image */
+    height: 100px; /* Hauteur de chaque image */
+    border-radius: 50%; /* Pour rendre les images circulaires */
+    position: absolute;
+    background-image: url('../assets/women.jpg'); /* Assurez-vous que le chemin est correct */
+    background-size: cover;
+}
 
+.stackedImage:nth-child(1) { top: 0; left: 0; }
+.stackedImage:nth-child(2) { top: 10px; left: 10px; }
+.stackedImage:nth-child(3) { top: 20px; left: 20px; }
+.stackedImage:nth-child(4) { top: 30px; left: 30px; }
+.stackedImage:nth-child(5) { top: 40px; left: 40px; }
+.stackedImage:nth-child(6) { top: 50px; left: 50px; }
 
+/*Section 3 Images - End*/

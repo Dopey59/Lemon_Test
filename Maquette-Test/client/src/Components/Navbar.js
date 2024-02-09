@@ -27,19 +27,22 @@ export default function Navbar(){
                                 </button>
                             </div>
                         </div>
-                        <a class="" href="#" aria-current="page">Home</a>
-                        <a class="sm:py-6" href="#">Courses</a>
-                        <a class="sm:py-6" href="#">Instructors</a>
-                        <a class="sm:py-6" href="#">Contact</a>
+                        <a class="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#" aria-current="page">Home</a>
+                        <a class="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#">Courses</a>
+                        <a class="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#">Instructors</a>
+                        <a class="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#">Contact</a>
             
                         <div class="flex sm:items-center sm:flex-row flex-col gap-x-4 gap-y-4 sm:ms-auto">
                             <div className="hidden sm:flex">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASlJREFUSEvVlWESATEMRrMnwUlwEpwEJ8FJcBJuwr6ZfDNB2+2s+qEzprOrycuXpNnOfry6H/u3EmBqZiszW/jv3u8XM2M/+T4YXw6w7S13BWsgRzPbDxFSgLNHjC2Qq0eOItRMAhxFyxLkHbDuHRxc/sYdp+yBEQg7QWSVRACHb+6NqIiutFADhHRlg4kA5Z3cYlCzUIvqrIoI0GGcA6lZUpGtRQSQHtI0q21BP48dacLuY30LwOHDvSZbPr5Ue9YUWJGq67J1a1XkKsDYNkVNtm5jL5q6R7e96qIpr2pXnpGuUcEzKudhVPCODqJu7MUuin8ODTtFTpGBZiFD45pUEDG7ouVSKSVxJiUhLT44RUgLgGqj6foyaloBBCGVL3OsJSA5HP8f8AQPgk0ZV+/oxgAAAABJRU5ErkJggg=="/>
                             </div>
-                            <a class="flex items-center gap-x-2 mx-2  text-lime-500" href="#">
+                            <a class="flex items-center gap-x-2 mx-2 text-lime-500" 
+                                href="#">
                                 Log in
                             </a>
-                            <a className="bg-lime-500 rounded-md text-white w-fit py-2 px-3">Register</a>
+                            <a href="#" 
+                            className="bg-lime-500 rounded-md text-white w-fit py-2 px-3
+                            duration-0 hover:duration-500 hover:text-white hover:bg-green-800">Register</a>
                         </div>
                     </div>
                 </div>
