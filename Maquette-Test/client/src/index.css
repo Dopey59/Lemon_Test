@@ -8,6 +8,14 @@ html{
     background-color: rgba(248, 248, 248, 0.961);
 }
 
+/*Filter svg Footer - Start*/
+.filter{
+    filter: invert(89%) sepia(18%) saturate(803%) hue-rotate(47deg) brightness(82%) contrast(90%);}
+
+/*Filter svg Footer - End*/
+
+
+
 /*Men image logo - Start*/
 
 .menImage{
@@ -17,7 +25,7 @@ html{
         object-fit: cover;
         background-position: center;
         background-repeat: repeat-x;
-        background-image: url("./assets/men.jpg");
+        background-image: url("./assets/men.webp");
         background-size: contain;
 }
 
@@ -31,7 +39,7 @@ html{
     width: 20px; /* Largeur de chaque image */
     height: 30px; /* Hauteur de chaque image */
     border-radius: 50%; /* Pour rendre les images circulaires */
-    background-image: url("./assets/men.jpg");
+    background-image: url("./assets/men.webp");
     background-size: cover;
     background-position: center;
 }
@@ -46,26 +54,26 @@ html{
 
 /*Section 3 Images - Start*/
 
-.imageStack {
+.womenStack {
     position: relative;
     width: 150px; /* Largeur de la zone de superposition */
     height: 150px; /* Hauteur de la zone de superposition */
 }
 
-.stackedImage {
+.stackedWomen {
     width: 100px; /* Largeur de chaque image */
     height: 100px; /* Hauteur de chaque image */
     border-radius: 50%; /* Pour rendre les images circulaires */
     position: absolute;
-    background-image: url('../assets/women.jpg'); /* Assurez-vous que le chemin est correct */
+    /* background-image: url('../assets/women.jpg'); */
     background-size: cover;
 }
 
-.stackedImage:nth-child(1) { top: 0; left: 0; }
-.stackedImage:nth-child(2) { top: 10px; left: 10px; }
-.stackedImage:nth-child(3) { top: 20px; left: 20px; }
-.stackedImage:nth-child(4) { top: 30px; left: 30px; }
-.stackedImage:nth-child(5) { top: 40px; left: 40px; }
-.stackedImage:nth-child(6) { top: 50px; left: 50px; }
+.stackedWomen:nth-child(1) { top: 0; left: 0; }
+.stackedWomen:nth-child(2) { top: 10px; left: 10px; }
+.stackedWomen:nth-child(3) { top: 20px; left: 20px; }
+.stackedWomen:nth-child(4) { top: 30px; left: 30px; }
+.stackedWomen:nth-child(5) { top: 40px; left: 40px; }
+.stackedWomen:nth-child(6) { top: 50px; left: 50px; }
 
 /*Section 3 Images - End*/

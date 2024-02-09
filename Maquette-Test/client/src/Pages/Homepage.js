@@ -1,6 +1,8 @@
 import Navbar from "../Components/Navbar"
-import womenImage from "../assets/women.jpg";
-import men from "../assets/men.jpg";
+import Footer from "../Components/Footer"
+
+import womenImage from "../assets/women.webp";
+import men from "../assets/men.webp";
 import '../index.css';
 
 
@@ -102,10 +104,10 @@ export default function HomePage(){
                 </div>
             </div>
 
-            {/* Section 2  */}
+            {/* Section 3  */}
 
-            
 
+            <Footer/>
         </main>
         </>
     )
