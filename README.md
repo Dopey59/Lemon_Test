@@ -50,7 +50,7 @@ React fournit un modèle basé sur des composants pour construire des interfaces
 
 # Bonus 
 
-1 - Bouton ajouté : J'ai pris la liberté d'ajouter un bouton pour remonter plus rapidement en haut de la page. Dans un context d'accéssibilité à l'utilisateur, il est plus pratique pour lui de cliquer sur un bouton, que plutôt de scroller pour revenir en haut de la page.
+1 - Bouton ajouté : J'ai pris la liberté d'ajouter un bouton pour remonter plus rapidement en haut de la page. Dans un context d'accéssibilité à l'utilisateur, il est plus pratique pour lui de cliquer sur un bouton, plutôt que de scroller pour revenir en haut de la page.
 
 2 - Logo : Un petit logo a été intégré pour donner un peu plus de caractère à la maquette, reflétant l'image de l'entreprise, permettant également de renforcer et respecter son identité visuelle.
 
