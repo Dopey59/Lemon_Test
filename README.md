@@ -8,6 +8,11 @@
 
 Ressentis : 👍👍👍
 
+# L'installation et lancement du projet
+
+Afin de lancer le projet, ne pas oublier de faire "npm install" dans le terminal du projet afin d'installer les dépendances nécessaires. 
+
+Puis lancer le serveur avec "npm start" dans le terminal.
 
 # Contexte 
 
