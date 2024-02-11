@@ -33,6 +33,16 @@ React fournit un modèle basé sur des composants pour construire des interfaces
 
 6 - Optimisation automatique : Avec des outils comme PurgeCSS intégrés dans le processus de build, Tailwind peut automatiquement supprimer les styles inutilisés, résultant en des fichiers CSS finaux plus légers.
 
+# Test de performance
+
+1 - Version mobile : 
+![image](https://github.com/Dopey59/Lemon_Test/assets/118551930/2d9b522d-df0b-4cb0-ad2c-f7b077b6ac28)
+
+2 - Version Web : 
+![image](https://github.com/Dopey59/Lemon_Test/assets/118551930/00e89c0e-2c60-466a-99f2-9bbbbe8c1436)
+
+
+
 # Bonus 
 
 1 - Bouton ajouté : J'ai pris la liberté d'ajouter un bouton pour remonter plus rapidement en haut de la page. Dans un context d'accéssibilité à l'utilisateur, il est plus pratique pour lui de cliquer sur un bouton, que plutôt de scroller pour revenir en haut de la page.
