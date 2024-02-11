@@ -1,8 +1,9 @@
 export default function Footer(){
     return(
         <>
-        <footer className="bottom-0 bg-black text-white p-2 ">
+        <footer className="bottom-0 relative bg-black text-white p-2 ">
             <div className="sm:flex sm:justify-evenly sm:mt-14">
+                {/* Title & socials media  - Start */}
                 <div className="sm:flex hidden gap-6 flex-col justify-center">
                     <div className="flex flex-col jsutify-center">
                         <h1 className="sm:text-2xl font-bold">Lemon Interactive</h1>
@@ -15,6 +16,7 @@ export default function Footer(){
                             <svg className="filter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
                         </div>
                 </div>
+                {/* Title & socials media  - End */}
 
                 {/* Subscribe Form for mobile version - Start */}
                 <div class="sm:hidden py-2 sm:px-6 lg:px-8 lg:py-16 mx-auto">
@@ -34,40 +36,43 @@ export default function Footer(){
                 </div>
                 {/* Subscribe Form for mobile version - End */}
 
-
+                {/* Footer Links  - Start */}
                 <div className="sm:grid sm:grid-cols-5 flex flex-cols-1 text-sm gap-6 mb-7 sm:p-0 p-2 sm:gap-6">
                     <ul className="">
-                        <li><a>Home</a></li>
-                        <li><a>Courses</a></li>
-                        <li><a>Instructors</a></li>
-                        <li><a>Resources</a></li>
-                        <li><a>About us</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Home</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Courses</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Instructors</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Resources</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">About us</a></li>
                     </ul>
                     <ul>
-                        <li><a>SME</a></li>
-                        <li><a>Solution</a></li>
-                        <li><a>Reviews</a></li>
-                        <li><a>Blog</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">SME</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Solution</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Reviews</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Blog</a></li>
                     </ul>
                     <ul>
-                        <li><a>Contact us</a></li>
-                        <li><a>Place a call</a></li>
-                        <li><a>Email</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Contact us</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Place a call</a></li>
+                        <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Email</a></li>
                     </ul>
                     <div className="sm:flex hidden">
                         <ul>
-                            <li><a>Job Opening</a></li>
-                            <li><a>News</a></li>
-                            <li><a>Research</a></li>
+                            <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Job Opening</a></li>
+                            <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">News</a></li>
+                            <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Research</a></li>
                         </ul>
                     </div>
                     <div  className="sm:flex hidden">
                         <ul>
-                            <li><a>Uk Privacy Policy</a></li>
-                            <li><a>Term Of Use</a></li>
+                            <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Uk Privacy Policy</a></li>
+                            <li><a href="#" className="duration-0 hover:duration-200 hover:text-green-300">Term Of Use</a></li>
                         </ul>
                     </div>
                 </div>
+                {/* Footer Links  - End */}
+
+                {/* Title & icons - Start */}
                 <div className="flex sm:hidden gap-6 mx-2 sm:mx-0 flex-col justify-center">
                     <div className="flex flex-col jsutify-center">
                         <h1 className="text-2xl sm:font-bold ">Lemon Interactive</h1>
@@ -80,24 +85,26 @@ export default function Footer(){
                             <svg className="filter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
                         </div>
                 </div>
+                {/* Title & icons - End */}
             </div>
+
             {/* Subscribe Form - Start */}
             <div class="sm:flex hidden items-center py-2 sm:px-6 lg:px-8 lg:py-16 mx-auto">
-                    <div class="max-w-xl mx-auto">
-                        <div class="mb-5">
-                            <h2 class="md:text-3xl md:leading-tight">Subscribe to get latest updates</h2>
-                        </div>
-
-                        <form>
-                            <div className="flex justify-end items-center">
-                                <input className="rounded-sm p-2 w-full" type="search" placeholder="Your Adress Mail"></input>
-                                <button type="button" className="absolute bg-[#96C67F] p-2">Subscribe
-                                </button>
-                            </div>
-                        </form>
+                <div class="max-w-xl mx-auto">
+                    <div class="mb-5">
+                        <h2 class="md:text-3xl md:leading-tight">Subscribe to get latest updates</h2>
                     </div>
+
+                    <form>
+                        <div className="flex justify-end items-center">
+                            <input type="text" id="sub" name="subscribe" className="rounded-sm p-2 w-full" placeholder="Your Adress Mail"></input>
+                            <button type="button" className="absolute bg-[#96C67F] p-2">Subscribe
+                            </button>
+                        </div>
+                    </form>
                 </div>
-                {/* Subscribe Form - End */}
+            </div>
+            {/* Subscribe Form - End */}
         </footer>
         </>
     )

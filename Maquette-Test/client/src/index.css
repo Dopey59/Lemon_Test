@@ -19,14 +19,14 @@ html{
 /*Men image logo - Start*/
 
 .menImage{
-        height: 30px;
-        width: 30px;
-        border-radius: 100%;
-        object-fit: cover;
-        background-position: center;
-        background-repeat: repeat-x;
-        background-image: url("./assets/men.webp");
-        background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-image: url("./assets/men.png");
+    background-size: contain;
 }
 
 .imageStack {
@@ -39,7 +39,7 @@ html{
     width: 20px; /* Largeur de chaque image */
     height: 30px; /* Hauteur de chaque image */
     border-radius: 50%; /* Pour rendre les images circulaires */
-    background-image: url("./assets/men.webp");
+    background-image: url("./assets/men.png");
     background-size: cover;
     background-position: center;
 }
@@ -51,29 +51,3 @@ html{
 .stackedImage:nth-child(5) { left: 60px; } /* 5px de chevauchement */
 
 /*Men image logo - End*/
-
-/*Section 3 Images - Start*/
-
-.womenStack {
-    position: relative;
-    width: 150px; /* Largeur de la zone de superposition */
-    height: 150px; /* Hauteur de la zone de superposition */
-}
-
-.stackedWomen {
-    width: 100px; /* Largeur de chaque image */
-    height: 100px; /* Hauteur de chaque image */
-    border-radius: 50%; /* Pour rendre les images circulaires */
-    position: absolute;
-    /* background-image: url('../assets/women.jpg'); */
-    background-size: cover;
-}
-
-.stackedWomen:nth-child(1) { top: 0; left: 0; }
-.stackedWomen:nth-child(2) { top: 10px; left: 10px; }
-.stackedWomen:nth-child(3) { top: 20px; left: 20px; }
-.stackedWomen:nth-child(4) { top: 30px; left: 30px; }
-.stackedWomen:nth-child(5) { top: 40px; left: 40px; }
-.stackedWomen:nth-child(6) { top: 50px; left: 50px; }
-
-/*Section 3 Images - End*/

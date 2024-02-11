@@ -1,3 +1,4 @@
+import lemon from "../assets/lemon-logo.webp";
 export default function Navbar(){
     return(
         <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-3 sm:py-0">
@@ -11,38 +12,43 @@ export default function Navbar(){
                         </button>
                     </div>
                     <div className="flex items-center mx-auto w-full justify-between">
-                        <a className="flex-none text-xl font-semibold" href="#" aria-label="Brand">Lemon Interactive</a>
+                        <div className="flex items-center">
+                            <a className="flex-none text-xl font-semibold" href="#" aria-label="Brand">Lemon Interactive</a>
+                            <img className="w-12 h-auto" alt="logo lemon" src={lemon}></img>
+                        </div>
                         <img className="sm:hidden" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYtJREFUSEu1ldFRxDAMRHWVAJUAlQCVAJVwnQCVQCdwj/F6NrLihI9khuEi27srrayc4uDndDB+7CG4joiHiHiMCH5/N1EfEfF5iZ1nImcEdxHx1kBnGBC+rhGtETxfEF8aKgCoRC2qyQLyq5QVeyBaPBWBg3PoaSJf5ZMY/i9IMgHK3hvgfVPMK0AQ4wMZ8Qex/CBOORUn078nEwAOiSsH/KvIAjBEiAQCCbipCFxF39CUsYYqAD0bxZQlAlnv2XsGUpDriHoOQSq1yop3FyP/egWcQEDU1nu7IkDxT1FmediJnUAHXCkY2RfUk232SmVC0L8I1kwGMIsZMvMMpNTbU83gqlGHufS7PNE+NUo3vyIYLovdXu9WEXlsavJgUGrJ6kJrPCgTNUTZppWhKhtrrljzSHG80N5F6+ab7IZSR7LKve6+6GJpL2sLD7eG3XAg1UmmKpzv0OoHZ2tcA+gfId4H8GrYuUBvzcpgxYYJ6pv3fDIpw621qsa1Ppl9NFcq9hDM1G+uHU7wC+/oexn9VG3PAAAAAElFTkSuQmCC"/>
-                </div>
-
                     </div>
+
+                </div>
 
                 <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
                     <div className="flex flex-col gap-y-6 gap-x-0 mt-5 sm:mx-12 sm:flex-row sm:items-center sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-                        <div className="">
+                        <form>
                             <div className="flex justify-end items-center sm:hidden">
-                                <input className="bg-gray-100/50 rounded-sm p-2 w-full" type="search"></input>
+                                <input type="text" id="search" name="search" className="bg-gray-100/50 rounded-sm p-2 w-full"></input>
                                 <button type="button" className="absolute">
                                     <svg fill="gray" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
                                 </button>
                             </div>
-                        </div>
-                        <a className="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#" aria-current="page">Home</a>
-                        <a className="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#">Courses</a>
-                        <a className="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#">Instructors</a>
-                        <a className="sm:py-6 duration-0 hover:duration-200 hover:font-medium hover:text-green-800" href="#">Contact</a>
+                        </form>
+                        <a className="sm:py-6 duration-0 hover:duration-200 hover:text-green-500" href="#" aria-current="page">Home</a>
+                        <a className="sm:py-6 duration-0 hover:duration-200 hover:text-green-500" href="#">Courses</a>
+                        <a className="sm:py-6 duration-0 hover:duration-200 hover:text-green-500" href="#">Instructors</a>
+                        <a className="sm:py-6 duration-0 hover:duration-200 hover:text-green-500" href="#">Contact</a>
             
                         <div className="flex sm:items-center sm:flex-row flex-col gap-x-4 gap-y-4 sm:ms-auto">
                             <div className="hidden sm:flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
+                                </a>
                             </div>
-                            <a className="flex items-center gap-x-2 mx-2 text-lime-500" 
+                            <a className="flex items-center gap-x-2 mx-2 duration-0 hover:duration-200 text-green-600 hover:text-green-500" 
                                 href="#">
                                 Log in
                             </a>
                             <a href="#" 
-                            className="bg-lime-500 rounded-md text-white w-fit py-2 px-3
-                            duration-0 hover:duration-500 hover:text-white hover:bg-green-800">Register</a>
+                            className="bg-[#96C67F] rounded-md text-white w-fit py-2 px-3
+                            duration-0 hover:duration-500 hover:text-white hover:bg-green-500">Register</a>
                         </div>
                     </div>
                 </div>
