@@ -1,4 +1,4 @@
-# 🍋 Lemon_Test | Intégration maquette
+# 🍋 Lemon Test | Intégration maquette
 
 👩‍💻 Technologie choisie : React.
 
