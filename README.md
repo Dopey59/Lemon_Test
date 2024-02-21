@@ -16,7 +16,7 @@ Puis lancer le serveur avec "npm start" dans le terminal.
 
 # Contexte 
 
-Intégration d'une maquette Figma enversion web & mobile, dans le cadre d'un test technique pour Lemon Interactive. 
+Intégration d'une maquette Figma en version web & mobile, dans le cadre d'un test technique pour Lemon Interactive. 
 
 # Pourquoi avoir choisi React ?
 
